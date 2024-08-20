@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+       
+        *{
+          margin: 0px ;
+          padding: 0px;
+
+        }
+        
+
+        #upper{
+            height: 70px;
+            background-color: black;
+            width: 100%;
+        }
+        #butt1{
+            height: 100px;
+             float: left;
+             margin-left: 990px;}
+             #a1{
+            font-size: 20px; 
+             margin-top: 20px;
+              background-color: maroon;
+               border-radius: 5px;
+                border: 2px solid yellow;
+                color: white;
+                line-height: 30px;
+        }
+        #a2{
+            font-size: 20px; 
+             margin-top: 20px;
+              background-color: maroon;
+               border-radius: 5px;
+                border: 2px solid rgb(92, 206, 235);
+                color: white;
+                line-height: 30px;
+                margin-top: 2.5px;
+                margin-left: 10px;
+           
+        }
+        #a1:hover{
+        background-color: yellow;
+        color: red;
+      }
+      #a2:hover{
+        background-color: yellow;
+        color: red;
+      }
+      #logo{
+        height: 150px;
+        width: 100%;
+        background-color: orange;
+      }
+      #logo1{
+        height: 100px;
+        width: 100px;
+        /* border: 1px solid black; */
+        margin-left: 150px;
+        /* background: url(logo1.png); */
+        float: left;
+        
+      }
+      #text{
+        height: 130px;
+        width: 650px;
+        /* border: 1px solid black; */
+        margin-left:100px ;
+        float: left;
+        
+       
+
+      }
+      #logo2{
+        height: 100px;
+        width: 100px;
+        /* border: 1px solid black; */
+        margin-left: 100px;
+        /* background: url(logo1.png); */
+        float: left;
+      }
+      #text{
+        text-align: center;
+        font-size: 45px;
+        color: rgb(1, 3, 65);
+        font-weight: bolder;
+        text-transform: uppercase;
+      }
+      #nav{
+        height: 60px;
+        width: 100%;
+        background-color: rgb(2, 2, 46);
+        border-top: 2px solid white;
+      }
+      #nav1{
+        height: 50px;
+        width: 80px;
+       
+        color:  white;
+        margin-left: 85px;
+      border-radius: 7px;
+      margin-top: 4px;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+      font-family: sans-serif;
+      
+       
+      }
+      #nav2{
+        height: 50px;
+        width: 120px;
+       /* border: 1px solid yellow; */
+       margin-top: -50px;
+       margin-left: 168px;
+       border-radius: 7px;
+       color: white;
+       font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+      font-family: sans-serif;
+      }
+      #nav3{
+        height: 50px;
+        width: 120px;
+       /* border: 1px solid yellow; */
+       margin-top: -52px;
+       margin-left: 295px;
+       border-radius: 7px;
+       color: white;
+       font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+        font-family: sans-serif;
+       
+      }
+      #nav4{
+        height: 50px;
+        width: 120px;
+       /* border: 1px solid yellow; */
+       margin-top: -52px;
+       margin-left: 420px;
+       border-radius: 7px;
+       color: white;
+       font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      line-height: 40px;
+      font-family: sans-serif;
+       
+       
+      }
+      #nav5{
+        height: 50px;
+        width: 120px;
+       /* border: 1px solid yellow; */
+       margin-top: -52px;
+       margin-left: 545px;
+       border-radius: 7px;
+       color: white;
+       font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      line-height: 40px;
+      font-family: sans-serif;
+      }
+      #nav6{
+        height: 50px;
+        width: 120px;
+       /* border: 1px solid yellow; */
+       margin-top: -52px;
+       margin-left: 670px;
+       border-radius: 7px;
+       color: white;
+       font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      line-height: 40px;
+      font-family: sans-serif;
+      }
+      #nav7{
+        height: 50px;
+        width: 140px;
+       /* border: 1px solid yellow; */
+       margin-top: -52px;
+       margin-left: 795px;
+       border-radius: 7px;
+       color: white;
+       font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      line-height: 40px;
+      font-family: sans-serif;
+      }
+      #nav8{
+        height: 50px;
+        width: 140px;
+       /* border: 1px solid yellow; */
+       margin-top: -35px;
+       margin-left: 940px;
+       border-radius: 7px;
+       color: white;
+       font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+      font-family: sans-serif;
+      }
+      #nav9{
+        height: 50px;
+        width: 140px;
+       /* border: 1px solid yellow; */
+       margin-top: -52px;
+       margin-left: 1085px;
+       border-radius: 7px;
+       color: rgb(2, 2, 32);
+       background-color: orange;
+       font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      line-height: 50px;
+      font-family: sans-serif;
+       
+       
+      }
+      #nav1:hover{
+        background-color: orange;
+        color: black;}
+      #nav2:hover{
+        background-color: orange;
+        color: black;
+
+      }
+      #nav3:hover{
+        background-color: orange;
+        color: black;
+
+      }
+      #nav4:hover{
+        background-color: orange;
+        color: black;
+
+      }
+      #nav5:hover{
+        background-color: orange;
+        color: black;
+
+      }
+      #nav6:hover{
+        background-color: orange;
+        color: black;
+
+      }
+      #nav7:hover{
+        background-color: orange;
+        color: black;
+
+      }
+      #nav8:hover{
+        background-color: orange;
+        color: black;
+
+
+      }
+     
+     
+      #z{
+          height: 410px;
+          width: 100%;
+          /* border: 1px solid black; */
+          background-color: rgba(255, 208, 0, 0.897);
+          
+        }
+        #y{
+          height: 60px;
+          width: 100%;
+          /* border: 1px solid black; */
+          /* background-color: rgba(255, 208, 0, 0.897); */
+          /* margin-top: -450px; */
+          margin-top: -60px;
+          background-color: rgb(1, 1, 36);
+        }
+        #one1{
+          height: 390px;
+          width: 300px;
+          /* border: 1px solid black; */
+          float: left;
+        }
+        #two2{
+          height: 390px;
+          width: 300px;
+          /* border: 1px solid black; */
+          float: left;
+        }
+        #three3{
+          height: 390px;
+          width: 345px;
+          /* border-right: 1px solid black; */
+          float: left;
+          /* rotate: 10deg; */
+         
+        }
+        #rot{
+          height:440px ;
+          width: 3px;
+          /* border: 1px solid black; */
+          margin-top: -305px;
+          margin-left: 290px;
+          background-color: rgb(0, 0, 32);
+          rotate: 15deg;
+        }
+        #four4{
+          height: 390px;
+          width: 334px;
+          /* border: 1px solid black; */
+          float: left;
+          margin-left: 22px;
+        }
+        #hey{
+        height: 180px;
+        width: 180px;
+        /* border: 1px solid black; */
+        border-radius: 50%;
+        margin-top: 60px;
+         margin-left: 60px;
+         background: url(IMAGES/logo123.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+           
+        }
+        #hello{
+          height: 50px;
+          width: 228px;
+          border: 1px solid white;
+          border-radius: 100px;
+          margin-top: 60px;
+          margin-left: 40px;
+          background-color: rgba(255, 208, 0, 0.897) ;
+        }
+        #tab{
+          background: orange;
+        }
+        #fb{
+          height: 50px;
+          width: 50px;
+          background-color: white;
+          /* border: 1px solid black; */
+          border-radius: 50%;
+          margin-top: 25px;
+          float: left;
+          
+        }
+        #you{
+          height: 50px;
+          width: 50px;
+          background-color: white;
+          /* border: 1px solid black; */
+          border-radius: 50%;
+          margin-top: 25px;
+          margin-left: 7px;
+          float: left;
+        }
+
+        #middle{
+        height: 480px;
+        width: 100%;
+        border: 1px solid black;
+        background: url(IMAGES/back.webp);
+           
+           background-repeat: repeat;
+      }
+      
+        #mid{
+            height: 300px;
+            width:1200px ;
+            /* border: 1px solid black; */
+            margin-left: 50px;
+            margin-top: 118px;
+            background-color: rgb(255, 255, 211);
+            box-shadow: 1px 1px 1px rgb(221, 220, 220);
+        }
+        #mid:hover{
+            box-shadow:  3px 3px 3px rgb(252, 224, 172);
+        }
+        #d1{
+          height: 50px;
+          width: 160px;
+          /* border: 1px solid black; */
+          margin-left: 50px;
+          margin-top: 30px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(16, 156, 156);
+          color: white;
+        }
+        #d2{
+          height: 50px;
+          width: 100px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 30px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+          
+          
+        }
+        #d3{
+          height: 50px;
+          width: 100px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 30px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+         
+        }
+        #d4{
+          height: 50px;
+          width: 150px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 30px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+         
+        }
+        #d5{
+          height: 50px;
+          width: 150px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 30px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+          
+        }
+        #d6{
+          height: 50px;
+          width: 140px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 30px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+         
+        }
+        #d7{
+          height: 50px;
+          width: 150px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 30px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+        
+        }
+        #d8{
+          height: 50px;
+          width: 190px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 30px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+         
+        }
+        #d9{
+          height: 50px;
+          width: 150px;
+          /* border: 1px solid black; */
+          margin-left: 50px;
+          margin-top: 3px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+        
+        }
+        #d10{
+          height: 50px;
+          width: 150px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 3px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+         
+        }
+        #d11{
+          height: 50px;
+          width: 60px;
+          /* border: 1px solid black; */
+          margin-left: 5px;
+          margin-top: 3px;
+          float: left;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+          background-color: rgb(219, 218, 218);
+         
+        }
+        #d2:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d3:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d4:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d5:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d6:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d7:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d8:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d9:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d10:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #d11:hover{
+          background-color: rgb(16, 156, 156);
+          color: white;
+
+        }
+        #fixed{
+           height: 40px;
+          width: 40px;
+         
+          bottom: 0;
+          right: 0;
+          
+          /* border: 3px solid #73AD21; */
+          background-color: orange;
+          border-radius: 50%;
+          position: fixed;
+         
+         
+        }
+        #fixed:hover{
+          background-color: rgb(2, 2, 29);
+          
+        }
+        #paraaa{
+          margin-top: -30px;
+          float: left;
+          margin-left: 12px;
+          font-family: sans-serif;
+          margin-top: -20px;
+          
+        }
+        #paraaa::first-letter {
+    font-size: 60px;
+    color:rgb(5, 5, 39);
+}
+         
+         
+         
+         
+         
+         
+         
+
+     
+     
+
+      
+     </style>        
+</head>
+<body>
+    <div id="upper">
+        <div id="butt1">
+            <a href=""><button  id="a1">Request Puja Service</button></a>
+        </div> &nbsp; &nbsp;&nbsp;
+        <div id="butt2">
+            <a href=""><button id="a2">Sign In</button></a>
+        </div>
+    </div>
+    <div id="logo">
+        <div id="logo1"><img src="IMAGES/logo1.png" alt="" style="height: 100px;width: 100px;"></div>
+        <div id="text">
+          <p id="paraaa" >SRI</p> &nbsp; <p id="paraaa">SIVA</p>  <p id="paraaa">VISHNU</p>  <p id="paraaa">TEMPLE</p> <br> <br> <br>
+          <h6 style="font-size: 15px; margin-top: -100px;margin-left: -25px;">6905 Cipriano Rd, Lanham, MD 20706</h6><br> <br>
+          <h6 style="font-size: 15px; margin-top: -100px;margin-left: -25px;"><ion-icon name="call-sharp"></ion-icon> +1 301-552-3335 &nbsp;<ion-icon name="mail-sharp"></ion-icon> ssvt@ssvt.org</h6>
+        </div>
+        <div id="logo2"><img src="IMAGES/logo2.png" alt="" style="height: 100px; width: 100px;"></div>
+    </div>
+    <div id="nav">
+       <div id="nav1"><a href="INDEX.html" style="text-decoration: none;color: white;">HOME</a></div>
+       <div id="nav9">ABOUT</div>
+       <div id="nav2">RELIGIOUS</div>
+       <div id="nav3"><a href="culture.html" style="text-decoration: none;color: white;">CULTURAL</a></div>
+       <div id="nav4">EDUCATION</div>
+       <div id="nav5">SPONSER</div>
+       <div id="nav6">CALENDER</div>
+       <div id="nav7">FACILITIES</div>
+       <div id="nav8">DONATION</div>
+       
+    </div>
+    <div id="middle">
+
+      <div id="d1" ><center><h4 style="line-height: 45px;font-weight: lighter;"> General Information</h4></center></div>
+      <div id="d2"><center><h4 style="line-height: 45px;font-weight: lighter;"> History</h4></center></div>
+      <div id="d3"><center><h4 style="line-height: 45px;font-weight: lighter;"> Vision</h4></center></div>
+      <div id="d4"><center><h4 style="line-height: 45px;font-weight: lighter;">Temple Bylaws</h4></center></div>
+      <div id="d5"><center><h4 style="line-height: 45px;font-weight: lighter;"> Management</h4></center></div>
+      <div id="d6"><center><h4 style="line-height: 45px;font-weight: lighter;"> Architecture</h4></center></div>
+      <div id="d7"><center><h4 style="line-height: 45px;font-weight: lighter;"> Operational Manual</h4></center></div>
+      <div id="d8"><center><h4 style="line-height: 45px;font-weight: lighter;"> General Council Members</h4></center></div> <br>
+      <div id="d9"><center><h4 style="line-height: 45px;font-weight: lighter;"> Job Openings</h4></center></div>
+      <div id="d10"><center><h4 style="line-height: 45px;font-weight: lighter;">Office of Ombudsman</h4></center></div>
+      <div id="d11"><center><h4 style="line-height: 45px;font-weight: lighter;"> FAQs</h4></center></div>
+
+        <div id="mid">
+          <center><h1 style="color: rgb(44, 31, 31);">General Information</h1></center> <br>
+          <h2 style="word-spacing: 3px;font-weight: lighter;color: rgb(80, 66, 66);">The Sri Siva Vishnu Temple, located in Lanham, Maryland is about 12 miles from Washington D.C. What started off as a very small idea, in the living rooms of a few devotees in the late seventies, has now blossomed into being one of the largest temples in the western hemisphere. The actual temple construction began in 1988 and has incorporated the Mayan, Pallava, Vijayanagara, Kerala and the South Canara styles of temple architecture.</h2><br><br>
+          <h2 style="word-spacing: 3px;font-weight: lighter;color: rgb(80, 66, 66);">The Temple houses several Sannidhis with several deities which were consecrated between the years of 1990 and 2002. The last deity consecrated was in 2002, and they were all re-consecrated during the Jeernodharana Kumbhabhishekam in 2003.</h2>
+        </div>
+    </div>
+
+    <div id="z">
+
+        <div id="one1">
+  
+            <div id="hey"></div>
+            <div id="hello">
+              <audio src="IMAGES/image-1691410858730-448907999.mpeg" controls style="width: 228px;height: 50px;"></audio>
+            </div>
+             
+            
+        </div>
+        <div id="two2">
+          <br><br><h3 style="color: rgb(2, 2, 43);">ABOUT&nbsp;US</h3>
+          <img src="IMAGES/border2 (1).png" alt="" style="height: 10px;width: 90px;margin-top: -20px;"> <br> <br><br><br> 
+  
+      <h4 style="color: rgb(2, 2, 43);font-weight: lighter;">    
+  ABOUT TEMPLE <br>  <br>
+  SERVICES <br>  <br>
+  DONATIONS <br> <br>
+  GALLERY <br> <br>
+  PLEDGE FORM <br> <br>
+  VOLUNTEER FORM <br> <br>
+  PRIEST REQUEST FORM <br> <br> </h4>
+  
+        </div>
+        <div id="three3">
+          <br><br><h3>TEMPLE&nbsp;TIMINGS</h3>
+          <img src="IMAGES/border2 (1).png" alt="" style="height: 10px;width: 90px;margin-top: -20px;">
+          <TABLE id="tab" style="margin-top: 20PX;">
+            <tr >
+              <td style="border-bottom: 1px solid white;border-right: 1px solid white;height: 60px;color: rgb(5, 5, 78);">WEEKDAYS</td>
+              <td style="border-bottom: 1px solid white;width: 145px;color: rgb(5, 5, 78);">9:00&nbsp;AM-1:00&nbsp;AM <br>5:00&nbsp;PM-9:00&nbsp;PM</td>
+            </tr>
+  
+            <tr>
+              <td style="border-bottom: 1px solid white;border-right: 1px solid white;height: 40px;color: rgb(5, 5, 78);">WEEKENDS</td>
+              <td style="border-bottom: 1px solid white;color: rgb(5, 5, 78);">9:00&nbsp;AM-9:00&nbsp;PM</td>
+            </tr>
+          </TABLE>
+         <br><br><br> <h3>FOLLOW&nbsp;US</h3>
+          <img src="IMAGES/border2 (1).png" alt="" style="height: 10px;width: 90px;margin-left: -112px;">
+  
+          <div id="fb"><ion-icon name="logo-facebook" style="height: 45px;width: 45px;margin-top: 2px;margin-left: 2px;color: blue;"></ion-icon></div>
+          <div id="you"><ion-icon name="logo-youtube" style="height: 30px;width: 30px;margin-top: 6px;margin-left: 9px;color: red;"></ion-icon></div>
+          <div id="rot"></div>
+  
+        </div>
+        <div id="four4">
+          <br><br><h3>CONNECT &nbsp;WITH&nbsp; US</h3>
+          <img src="IMAGES/border2 (1).png" alt="" style="height: 10px;width: 90px;margin-top: -20px;">
+          <H4 style="font-weight: lighter; font-size: 25px;">   <br>
+  
+  6905 Cipriano Rd, <br>
+  Lanham, MD 20706 <br>
+  <ion-icon name="call"></ion-icon>+1 301-552-3335 <br> 
+  <ion-icon name="mail"></ion-icon>ssvt@ssvt.org <br> <br>   <br>
+  
+        <button style=" height: 50PX; width: 150PX;font-size: 18px;border-radius: 30px;border: 1px solid rgb(2, 2, 27);background-color:  rgba(255, 208, 0, 0.897);box-shadow: 2px 2px 2px rgb(2, 2, 43);">CONTACT &nbsp; US</button>
+          </H4>
+        </div>
+       
+  
+      </div>
+      <div id="y"><h5 style="color: gray;font-size: 20PX;font-weight: lighter;margin-top: 55px;line-height: 56px;margin-left: 20px;">Powered by <B>VAAP Technologies Inc</B>, All rights reserved.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;COPYRIGHT | TERMS OF USE | PRIVACY POLICY | SECURITY</h5></div>
+      <div id="fixed">
+        <a href=""> <ion-icon name="arrow-up-sharp" style="color: white;height: 30px;width: 30px;margin-left: 5px;margin-top: 5px;"></ion-icon></a>
+         
+       </div>
+  </body>
+  </html>
+</body>
+</html>
